@@ -3,26 +3,39 @@
 - This data challenge aims to explain and solve the problem of predicting changes in electricity prices.
 - Detailed EDA and feature enginnering were performed on the raw dataset.
 - 5 machine mearning models were used and compared on the engineered data. 
-- The best performance was by the **LightGBM** model that resulted with a score metric of **27.27%**. 
+- The best performance was by the LightGBM model that resulted with a score metric of **27.27%**. 
 
 ## Notebooks Overview
 
-- `EDA.ipynb`: Initial exploration of the provided data sets, including statistical summaries and visualizations to understand the distributions of various features and the target variable.
-- `feature_enginnering.ipynb`: Steps taken to clean the data, including handling missing values, outlier identification and treatment and feature engineering which involves the selection, manipulation and transformation of raw data into features used in supervised learning.
-- `ml_prediction.ipynb`: Compare 5 different ML model (TabPFN, RandomForest, XGBoost, LightGBM and CatBoost) on the engineered data, and using the model with the best score for accuracy estimation of electricity price variations.
+- `EDA.ipynb`: Under the `notebook` folder, initial exploration of the provided data sets, including statistical summaries and visualizations to understand the distributions of various features and the target variable.
+- `feature_enginnering.ipynb`: Under the `notebook` folder, steps taken to clean the data, including handling missing values, outlier identification and treatment and feature engineering which involves the selection, manipulation and transformation of raw data into features used in supervised learning.
+- `ml_prediction.ipynb`: Under the root directory, perform 5 different ML model (TabPFN, RandomForest, XGBoost, LightGBM and CatBoost) on the engineered data, and using the model with the best score for accuracy estimation of electricity price variations.
+
+## Model List
+
+- **TabPFN**: A trained transformer that can do supervised classification and regression well for small tabular datasets regression.
+- **Random Forest**: A random forest is a meta estimator that fits a number of decision tree regressors on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+- **XGBoost**: XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable.
+- **LightGBM**: Short for Light Gradient-Boosting Machine, is a free and open-source distributed gradient-boosting framework that uses tree based learning algorithms.
+- **CatBoost**: CatBoost is a high-performance open source library for gradient boosting on decision trees.
 
 ## Dataset
 
-- Train Data: `X_train_NHkHMNU.csv`, `y_train.csv`
-- Test Data: `X_test_final.csv`
+- All the data set are under the `data` folder
+- Train data: `X_train_NHkHMNU.csv`, `y_train.csv`
+- Test data: `X_test_final.csv`
+- Submmision data: `y_test_submission.csv`
 
 ## Use Guide
 
-- Clone the entire folder (electricity_price) to your local machine.
-- Download the dataset `X_train_NHkHMNU.csv`, `y_train.csv` and `X_test_final.csv` from the website https://challengedata.ens.fr/participants/challenges/97/.
+- Clone or zip-copy the entire repository (https://github.com/AInnovationQL/electricity_price) to your local machine.
+- Ensure Jupyter Notebook or JupyterLab has been installed to run the notebooks.
 - Install necessary Python packages as listed in the `requirements.txt` file.
-- Open and run directly the main notebook `ml_prediction.ipynb`, it can automatically call the notebook `feature_enginnering.ipynb`
-- The nootbook `EDA.ipynb` to understand the data and the `feature_enginnering.ipynb` for data preprocessing can be performed independently and individually.
+- Download the dataset `X_train_NHkHMNU.csv`, `y_train.csv` and `X_test_final.csv` into the `data` folder from the website https://challengedata.ens.fr/participants/challenges/97/.
+- Install necessary Python packages as listed in the `requirements.txt` file.
+- Open and run directly the main notebook `ml_prediction.ipynb`, it can automatically call the notebook `feature_enginnering.ipynb`.
+- The output results `y_test_submission.csv` under the `data` folder can be submitted to the data challenge platform https://challengedata.ens.fr/participants/challenges/97/.
+- Notice that the nootbook `EDA.ipynb` to understand the data and the `feature_enginnering.ipynb` for data preprocessing can be performed independently and individually.
 
 ## More Information about the Data Challenge
 
