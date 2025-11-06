@@ -9,7 +9,7 @@
 
 - `EDA.ipynb`: Under the `notebook` folder, initial exploration of the provided data sets, including statistical summaries and visualizations to understand the distributions of various features and the target variable.
 - `feature_enginnering.ipynb`: Under the `notebook` folder, steps taken to clean the data, including handling missing values, outlier identification and treatment and feature engineering which involves the selection, manipulation and transformation of raw data into features used in supervised learning.
-- `ml_prediction.ipynb`: Under the root directory, perform 5 different ML model (TabPFN, RandomForest, XGBoost, LightGBM and CatBoost) on the engineered data, and using the model with the best score for accuracy estimation of electricity price variations.
+- `ml_prediction.ipynb`: Under the root directory, it is the main notebook, perform 5 different ML model (TabPFN, RandomForest, XGBoost, LightGBM and CatBoost) on the engineered data, and using the model with the best score for accuracy estimation of electricity price variations.
 
 ## Model List
 
