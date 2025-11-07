@@ -30,7 +30,7 @@
 
 - Clone or zip-copy the entire repository (https://github.com/AInnovationQL/electricity_price) to your local machine.
 - Ensure Jupyter Notebook or JupyterLab has been installed to run the notebooks.
-- Install necessary Python packages as listed in the `requirements.txt` file.
+- Install necessary python packages as listed in the `requirements.txt` file associate with python version 3.10.
 - Download the dataset `X_train_NHkHMNU.csv`, `y_train.csv` and `X_test_final.csv` into the `data` folder from the website https://challengedata.ens.fr/participants/challenges/97/.
 - Install necessary Python packages as listed in the `requirements.txt` file.
 - Open and run directly the main notebook `ml_prediction.ipynb`, it can automatically call the notebook `feature_enginnering.ipynb`.
