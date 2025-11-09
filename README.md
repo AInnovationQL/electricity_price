@@ -1,8 +1,8 @@
 # Forecast and explain the electricity price changes
 
 - This data challenge aims to explain and solve the problem of predicting changes in electricity prices.
-- Detailed EDA and feature enginnering were performed on the raw dataset.
-- 5 machine mearning models were used and compared on the engineered data. 
+- Detailed EDA and feature engineering were performed on the raw dataset.
+- 5 machine learning models were used and compared on the engineered data. 
 - The best performance was by the LightGBM model that resulted with a score metric of **27.27%**. 
 
 ## Notebooks Overview
@@ -28,13 +28,13 @@
 
 ## Use Guide
 
-- Clone or zip-copy the entire repository (https://github.com/AInnovationQL/electricity_price) to your local machine.
+- Clone or zip-copy the entire repository to your local machine.
 - Ensure Jupyter Notebook or JupyterLab has been installed to run the notebooks.
 - Install necessary python packages as listed in the `requirements.txt` file associate with python version 3.10.
-- Download the dataset `X_train_NHkHMNU.csv`, `y_train.csv` and `X_test_final.csv` into the `data` folder from the website https://challengedata.ens.fr/participants/challenges/97/.
+- Download the dataset `X_train_NHkHMNU.csv`, `y_train.csv` and `X_test_final.csv` into the `data` folder from the data challenge platform.
 - Install necessary Python packages as listed in the `requirements.txt` file.
 - Open and run directly the main notebook `ml_prediction.ipynb`, it can automatically call the notebook `feature_enginnering.ipynb`.
-- The output results `y_test_submission.csv` under the `data` folder can be submitted to the data challenge platform https://challengedata.ens.fr/participants/challenges/97/.
+- The output results `y_test_submission.csv` under the `data` folder can be submitted to the data challenge platform.
 - Notice that the nootbook `EDA.ipynb` to understand the data and the `feature_enginnering.ipynb` for data preprocessing can be performed independently and individually.
 
 ## More Information about the Data Challenge
